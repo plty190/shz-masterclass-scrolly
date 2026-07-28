@@ -11,6 +11,7 @@ import { HeroVideo } from "@/components/HeroVideo";
 import { MarkerScreen } from "@/components/MarkerScreen";
 import { Closing } from "@/components/Closing";
 import { TextScrub } from "@/components/TextScrub";
+import { WelcomeVideo } from "@/components/WelcomeVideo";
 
 /* Interaktiver Keynote-Onepager — ersetzt die Präsentation der Masterclass.
    Reihenfolge = Ablauf; Pfeiltasten/Space navigieren beat-genau (KeyNav). */
@@ -21,7 +22,10 @@ export default function Home() {
       <Nav />
       <KeyNav />
       <main>
-        {/* 0 · Einlass / Titel */}
+        {/* 0 · Einlass — mood.mp4 im Loop während Teilnehmer joinen */}
+        <WelcomeVideo />
+
+        {/* 1 · Titel + Hosts + Agenda */}
         <Opener />
 
         {/* 1 · Status Quo (Mirja) — "What happens after the hype?" */}

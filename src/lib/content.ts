@@ -1,5 +1,6 @@
 /* Keynote-Kapitel — Reihenfolge = Ablauf der Masterclass */
 export const chapters = [
+  { id: "welcome", label: "Willkommen" },
   { id: "hero", label: "Intro" },
   { id: "problem", label: "Das Strukturproblem" },
   { id: "ansatz", label: "Kein Prompting, kein Shooting" },
