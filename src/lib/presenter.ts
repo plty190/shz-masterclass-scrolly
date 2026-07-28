@@ -53,6 +53,7 @@ export function jump(dir: 1 | -1) {
   if (dir === 1) target = stops.find((s) => s > y + EPS);
   else target = [...stops].reverse().find((s) => s < y - EPS);
   if (target === undefined) return;
-  if (lenis) lenis.scrollTo(target, { duration: 1.2, easing: (t) => 1 - Math.pow(1 - t, 3) });
+  // 0.7s — snappy fürs Live-Präsentieren (Cubic-ease-out für weiches Ankommen)
+  if (lenis) lenis.scrollTo(target, { duration: 0.7, easing: (t) => 1 - Math.pow(1 - t, 3) });
   else window.scrollTo({ top: target, behavior: "smooth" });
 }

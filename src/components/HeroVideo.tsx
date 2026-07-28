@@ -30,11 +30,11 @@ export function HeroVideo() {
           },
         }
       );
-      // play/pause with visibility
+      // play/pause with visibility — auf Halbierten Viewport ziehen damits früher startet
       ScrollTrigger.create({
         trigger: rootRef.current,
-        start: "top 90%",
-        end: "bottom 10%",
+        start: "top bottom",
+        end: "bottom top",
         onEnter: () => videoRef.current?.play().catch(() => {}),
         onEnterBack: () => videoRef.current?.play().catch(() => {}),
         onLeave: () => videoRef.current?.pause(),
@@ -65,6 +65,8 @@ export function HeroVideo() {
           muted
           loop
           playsInline
+          preload="auto"
+          autoPlay
           className="h-full w-full object-cover"
         />
       </div>
