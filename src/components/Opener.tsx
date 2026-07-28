@@ -140,10 +140,10 @@ export function Opener() {
           </ol>
         </div>
 
-        {/* Beat 4 — Auftakt-Statement */}
+        {/* Beat 4 — Übergang zur ersten Sektion */}
         <div className="op-beat fade-init absolute max-w-3xl px-6 text-center">
-          <TextScrub className="display-h2 text-[6vw] leading-[1.22] md:text-[52px]">
-            <>Mehr Drops, mehr Kanäle, mehr SKUs. <span className="font-normal text-quiet">Team und Budget bleiben gleich.</span></>
+          <TextScrub className="display-h1 text-[11vw] leading-[1.02] md:text-[96px]">
+            <>Status Quo<span className="text-green">.</span></>
           </TextScrub>
         </div>
       </div>

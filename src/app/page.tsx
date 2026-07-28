@@ -7,7 +7,6 @@ import { BeatSequence } from "@/components/BeatSequence";
 import { ProcessJourney } from "@/components/ProcessJourney";
 import { Emotions } from "@/components/Emotions";
 import { EcomGrid } from "@/components/EcomGrid";
-import { HeroVideo } from "@/components/HeroVideo";
 import { MarkerScreen } from "@/components/MarkerScreen";
 import { Closing } from "@/components/Closing";
 import { TextScrub } from "@/components/TextScrub";
@@ -55,7 +54,7 @@ export default function Home() {
               </ol>
             </div>,
             <TextScrub key="3" className="display-h2 text-[5.5vw] leading-[1.42] md:text-[44px]">
-              <>Ein Strukturproblem der ganzen Branche. <span className="marker">Generative KI kann hier helfen.</span></>
+              <>Starting point: <span className="marker">Automatisierung und Kreativität.</span></>
             </TextScrub>,
           ]}
         />
@@ -95,10 +94,7 @@ export default function Home() {
         {/* 6 · E-Commerce-Produktion + EN 13402 */}
         <EcomGrid />
 
-        {/* 7 · Brand Film */}
-        <HeroVideo />
-
-        {/* 8 · EU AI Act — Grenzen & Möglichkeiten (Mirja, Part 5) */}
+        {/* 7 · EU AI Act — Grenzen & Möglichkeiten (Mirja, Part 5) */}
         <BeatSequence
           id="aiact"
           tint="sky"
