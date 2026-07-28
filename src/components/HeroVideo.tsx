@@ -7,7 +7,7 @@ import { isFlat } from "@/lib/flat";
 
 gsap.registerPlugin(ScrollTrigger);
 
-/* Hero-Video aus dem SHOWZ.AI-Portfolio-Case — Vollbild-Showcase-Moment. */
+/* Hero-Video aus dem SHOWZ.AI-Portfolio-Case, Vollbild-Showcase-Moment. */
 export function HeroVideo() {
   const rootRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -30,7 +30,7 @@ export function HeroVideo() {
           },
         }
       );
-      // play/pause with visibility — auf Halbierten Viewport ziehen damits früher startet
+      // play/pause with visibility, auf Halbierten Viewport ziehen damits früher startet
       ScrollTrigger.create({
         trigger: rootRef.current,
         start: "top bottom",

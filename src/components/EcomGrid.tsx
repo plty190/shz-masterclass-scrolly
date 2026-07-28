@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 /* E-Commerce-Produktion: ein Look, konsistent über Körperformen und Größen.
    Grid aus Render-Varianten + EN-13402-Beat. */
 
-// bodysizing — dasselbe blonde Model, gleiche blaue Boardshort,
+// bodysizing, dasselbe blonde Model, gleiche blaue Boardshort,
 // Progression von schlank -> korpulent (nur Frontal-Views, ein Model, ein Look)
 // Eine Reihe, 6 Frontal-Full-Body-Shots, streng schlank → korpulent.
 // Alle im gleichen Framing (896×1200, Person klein im Frame).
@@ -66,7 +66,7 @@ export function EcomGrid() {
           <span className="font-normal text-quiet">Konsistent über die gesamte Range.</span>
         </h2>
         <p className="eg-copy fade-init mt-6 max-w-xl display-body text-[16px] text-ink-soft text-pretty md:text-[17px]">
-          Körperformen nach EN 13402 als Referenz — das Fitting passiert auf Knopfdruck, die
+          Körperformen nach EN 13402 als Referenz. Das Fitting passiert auf Knopfdruck, die
           Bildsprache bleibt markenkonsistent. Keine Nachshootings, wenn die Range wächst.
         </p>
 
@@ -84,7 +84,7 @@ export function EcomGrid() {
           ))}
         </div>
         <p className="mt-4 text-[11px] text-faint">
-          Ein Produkt, fünf Körperformen — generiert aus demselben Ausgangsbild.
+          Ein Produkt, fünf Körperformen. Generiert aus demselben Ausgangsbild.
         </p>
       </div>
     </section>

@@ -18,7 +18,7 @@ const label = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "SHOWZ.AI Masterclass — AI Content Creation",
+  title: "SHOWZ.AI Masterclass",
   description:
     "Vom Look zum fertigen Asset in Minuten. Live-Masterclass für Marketing-, E-Commerce- und Social-Teams von Fashion Brands. Mi, 29. Juli, 15:00–15:45 MESZ.",
 };

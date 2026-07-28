@@ -12,7 +12,7 @@ import { Closing } from "@/components/Closing";
 import { TextScrub } from "@/components/TextScrub";
 import { WelcomeVideo } from "@/components/WelcomeVideo";
 
-/* Interaktiver Keynote-Onepager — ersetzt die Präsentation der Masterclass.
+/* Interaktiver Keynote-Onepager, ersetzt die Präsentation der Masterclass.
    Reihenfolge = Ablauf; Pfeiltasten/Space navigieren beat-genau (KeyNav). */
 export default function Home() {
   return (
@@ -21,13 +21,13 @@ export default function Home() {
       <Nav />
       <KeyNav />
       <main>
-        {/* 0 · Einlass — mood.mp4 im Loop während Teilnehmer joinen */}
+        {/* 0 · Einlass, mood.mp4 im Loop während Teilnehmer joinen */}
         <WelcomeVideo />
 
         {/* 1 · Titel + Hosts + Agenda */}
         <Opener />
 
-        {/* 1 · Status Quo (Mirja) — "What happens after the hype?" */}
+        {/* 1 · Status Quo (Mirja), "What happens after the hype?" */}
         <BeatSequence
           id="problem"
           tint="sand"
@@ -77,12 +77,12 @@ export default function Home() {
           ]}
         />
 
-        {/* 3 · Live-Demo (direkt nach "Fünf Stile ... im Detail" — Übergabe ins Tool) */}
+        {/* 3 · Live-Demo (direkt nach "Fünf Stile ... im Detail", Übergabe ins Tool) */}
         <MarkerScreen
           id="demo"
           eyebrow="Jetzt live"
           title="Live-Demo"
-          note="Ein echtes Produktbild, in Echtzeit — E-Commerce, Lookbook, Social. Wir wechseln in die Plattform."
+          note="Ein echtes Produktbild, in Echtzeit: E-Commerce, Lookbook, Social. Wir wechseln in die Plattform."
         />
 
         {/* 4 · Der Prozess: Zeichnung → Produkt → E-Com */}
@@ -94,7 +94,7 @@ export default function Home() {
         {/* 6 · E-Commerce-Produktion + EN 13402 */}
         <EcomGrid />
 
-        {/* 7 · EU AI Act — Grenzen & Möglichkeiten (Mirja, Part 5) */}
+        {/* 7 · EU AI Act, Grenzen & Möglichkeiten (Mirja, Part 5) */}
         <BeatSequence
           id="aiact"
           tint="sky"
@@ -128,7 +128,7 @@ export default function Home() {
           ]}
         />
 
-        {/* 9 · Euer nächster Schritt (Mirja, Part 6) — Sinnvolle Integration von AI */}
+        {/* 9 · Euer nächster Schritt (Mirja, Part 6), Sinnvolle Integration von AI */}
         <BeatSequence
           id="next"
           tint="mint"

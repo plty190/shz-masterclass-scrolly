@@ -17,11 +17,11 @@ const stations = [
   },
   {
     label: "Front & Back",
-    text: "Daraus entstehen erste Produktansichten — Front und Back, in eurer Bildsprache.",
+    text: "Daraus entstehen erste Produktansichten: Front und Back, in eurer Bildsprache.",
   },
   {
     label: "Alle Bilder",
-    text: "Und daraus die komplette Bilderstrecke — Editorial, Kampagne, Detail. Ohne Shooting, ohne Prompting.",
+    text: "Und daraus die komplette Bilderstrecke: Editorial, Kampagne, Detail. Ohne Shooting, ohne Prompting.",
   },
 ];
 
@@ -86,9 +86,9 @@ export function ProcessJourney() {
           Der Prozess · Von der Idee zum Asset
         </p>
 
-        {/* Scene container — 3 crossfading layouts, safe padding-top under eyebrow */}
+        {/* Scene container, 3 crossfading layouts, safe padding-top under eyebrow */}
         <div className="relative z-10 flex h-[52vh] w-full max-w-6xl items-center justify-center px-6 pt-16">
-          {/* Scene 1 — Illu-Input (Sundek technische Zeichnung Front+Back) */}
+          {/* Scene 1, Illu-Input (Sundek technische Zeichnung Front+Back) */}
           <div className="prc-scene fade-init absolute inset-x-0 top-16 bottom-0 flex items-center justify-center px-6">
             <div className="inline-flex h-full max-w-3xl flex-col items-end">
               <img
@@ -100,7 +100,7 @@ export function ProcessJourney() {
             </div>
           </div>
 
-          {/* Scene 2 — Front & Back Freisteller (Label rechtsbündig am Bildrand) */}
+          {/* Scene 2, Front & Back Freisteller (Label rechtsbündig am Bildrand) */}
           <div className="prc-scene fade-init absolute inset-x-0 top-16 bottom-0 flex items-center justify-center gap-8 px-6 md:gap-16">
             <div className="flex h-full max-w-[40%] flex-col items-end">
               <img
@@ -120,7 +120,7 @@ export function ProcessJourney() {
             </div>
           </div>
 
-          {/* Scene 3 — 6 Hochformat-Kacheln nebeneinander in einer Reihe, gefüllt */}
+          {/* Scene 3, 6 Hochformat-Kacheln nebeneinander in einer Reihe, gefüllt */}
           <div className="prc-scene fade-init absolute inset-x-0 top-16 bottom-0 flex items-center justify-center px-6">
             <div className="grid h-full w-full max-w-6xl grid-cols-6 gap-2 md:gap-3">
               {galleryImgs.map((src, i) => (

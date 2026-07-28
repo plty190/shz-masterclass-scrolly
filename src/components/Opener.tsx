@@ -20,7 +20,7 @@ export function Opener() {
       gsap.set(beats, { autoAlpha: 0 });
       gsap.set(beats[0], { autoAlpha: 1 });
 
-      // First-beat word reveal (fires on load — the title screen)
+      // First-beat word reveal (fires on load, the title screen)
       const firstWords = beats[0]?.querySelectorAll<HTMLSpanElement>(".ts-word");
       if (firstWords?.length) {
         gsap.set(firstWords, { opacity: 0.12, filter: "blur(2px)" });
@@ -84,7 +84,7 @@ export function Opener() {
           aria-hidden
         />
 
-        {/* Beat 1 — Titel (Einlass-Screen) */}
+        {/* Beat 1, Titel (Einlass-Screen) */}
         <div className="op-beat fade-init absolute flex max-w-4xl flex-col items-center px-6 text-center">
           <p className="eyebrow mb-8">SHOWZ.AI Masterclass · AI Content Creation</p>
           <TextScrub className="display-h1 text-[9vw] leading-[1.02] md:text-[76px]">
@@ -99,7 +99,7 @@ export function Opener() {
           <p className="eyebrow mt-10 text-[10.5px]">Mirja Schwartz & Philip Regutzki · SHOWZ</p>
         </div>
 
-        {/* Beat 2 — Hosts (typografisch, Vertikalstrich zwischen) */}
+        {/* Beat 2, Hosts (typografisch, Vertikalstrich zwischen) */}
         <div className="op-beat fade-init absolute flex max-w-4xl flex-col items-center px-6 text-center">
           <p className="eyebrow mb-12">Eure Hosts</p>
           <div className="flex flex-col items-center gap-10 md:flex-row md:gap-24">
@@ -114,19 +114,19 @@ export function Opener() {
             </div>
           </div>
           <p className="mt-14 max-w-md text-[14px] leading-[1.55] text-ink-soft">
-            SHOWZ.AI — AI Content Production für Fashion Brands. Dahinter: die Kreativagentur SHOWZ, Berlin.
+            SHOWZ.AI: AI Content Production für Fashion Brands. Dahinter: die Kreativagentur SHOWZ, Berlin.
           </p>
         </div>
 
-        {/* Beat 3 — Was euch erwartet (Agenda) */}
+        {/* Beat 3, Was euch erwartet (Agenda) */}
         <div className="op-beat fade-init absolute flex max-w-3xl flex-col items-center px-6 text-center">
           <p className="eyebrow mb-10">Was euch erwartet</p>
           <ol className="w-fit text-left">
             {[
-              "Status Quo — what happens after the hype?",
+              "Status Quo: what happens after the hype?",
               "AI Content Creation in der Praxis",
-              "Live-Demo — vom Produktbild zum fertigen Asset",
-              "EU AI Act — Grenzen & Möglichkeiten",
+              "Live-Demo: vom Produktbild zum fertigen Asset",
+              "EU AI Act: Grenzen & Möglichkeiten",
               "Euer nächster Schritt",
               "Q&A",
             ].map((item, i) => (
@@ -140,7 +140,7 @@ export function Opener() {
           </ol>
         </div>
 
-        {/* Beat 4 — Übergang zur ersten Sektion */}
+        {/* Beat 4, Übergang zur ersten Sektion */}
         <div className="op-beat fade-init absolute max-w-3xl px-6 text-center">
           <TextScrub className="display-h1 text-[11vw] leading-[1.02] md:text-[96px]">
             <>Status Quo<span className="text-green">.</span></>

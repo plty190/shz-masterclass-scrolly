@@ -1,7 +1,7 @@
 "use client";
 
 /* Einlass-Screen: mood.mp4 in Endlosschleife, während Teilnehmer joinen.
-   Kommt VOR dem Opener — erster Scroll/→-Klick führt in die Präsentation. */
+   Kommt VOR dem Opener, erster Scroll/→-Klick führt in die Präsentation. */
 export function WelcomeVideo() {
   return (
     <section
@@ -34,7 +34,7 @@ export function WelcomeVideo() {
           Willkommen<span className="text-green">.</span>
         </h1>
         <p className="display-body mt-8 max-w-lg text-[16px] leading-relaxed text-white/70 md:text-[18px]">
-          Wir starten gleich. In der Zwischenzeit — kurz durchatmen, Kaffee holen.
+          Wir starten gleich. Zeit für einen Kaffee.
         </p>
         <div className="mt-14 flex items-center gap-2 text-[11px] uppercase tracking-[0.2em] text-white/40">
           <svg width="12" height="12" viewBox="0 0 16 16" fill="none">

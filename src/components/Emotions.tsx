@@ -7,12 +7,12 @@ import { isFlat } from "@/lib/flat";
 
 gsap.registerPlugin(ScrollTrigger);
 
-/* Emotionen: Vollbild-Case-Stills mit weißen Statements — das Argument,
+/* Emotionen: Vollbild-Case-Stills mit weißen Statements, das Argument,
    dass AI-Produktion Stimmung kann, nicht nur Freisteller. */
 
 const beats = [
   { img: "/images/mc/cool/cool-02.webp", text: "Content muss nicht nur schnell sein. Er muss etwas auslösen." },
-  { img: "/images/mc/cool/cool-14.webp", text: "Licht, Haltung, Atmosphäre — Markenbildsprache statt Stock-Optik." },
+  { img: "/images/mc/cool/cool-14.webp", text: "Licht, Haltung, Atmosphäre. Markenbildsprache statt Stock-Optik." },
   { img: "/images/mc/imaginary/imaginary-04.webp", text: "Und wenn ihr wollt, führt sie euch auch in Welten, die es so gar nicht gibt." },
   { img: "/images/mc/cool/cool-20.webp", text: "Dieselbe Engine, die eure E-Commerce-Shots produziert, kann auch das." },
 ];
