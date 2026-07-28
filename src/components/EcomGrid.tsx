@@ -12,15 +12,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 // bodysizing — dasselbe blonde Model, gleiche blaue Boardshort,
 // Progression von schlank -> korpulent (nur Frontal-Views, ein Model, ein Look)
+// Lesefluss oben-links → unten-rechts, streng schlank → korpulent.
+// Nur Frontal-Full-Body (11 Rückansicht raus, 12 als leichter 3/4-Turn im Übergang).
+// 13 = neuer korpulenter Full-Body-Shot (voll frontal, Bauch klar sichtbar).
 const variants = [
-  "mc/bodysizing/bodysizing-09", // 1 · sehr schlank, definiert
-  "mc/bodysizing/bodysizing-11", // 2 · schlank, Frontal
-  "mc/bodysizing/bodysizing-01", // 3 · athletisch
-  "mc/bodysizing/bodysizing-12", // 4 · leicht kräftig
-  "mc/bodysizing/bodysizing-07", // 5 · deutlich kräftig
-  "mc/bodysizing/bodysizing-03", // 6 · korpulent (weichere Silhouette)
-  "mc/bodysizing/bodysizing-10", // 7 · korpulent-massiv
-  "mc/bodysizing/bodysizing-04", // 8 · korpulentester
+  "mc/bodysizing/bodysizing-07", // 1 · schlankster, definierter Sixpack
+  "mc/bodysizing/bodysizing-09", // 2 · schlank, definiert
+  "mc/bodysizing/bodysizing-01", // 3 · athletisch, leichter Rumpf
+  "mc/bodysizing/bodysizing-12", // 4 · leicht kräftig (Übergang)
+  "mc/bodysizing/bodysizing-03", // 5 · korpulent, weiche Silhouette
+  "mc/bodysizing/bodysizing-10", // 6 · korpulent, breitere Statur
+  "mc/bodysizing/bodysizing-13", // 7 · korpulent-massiv (neuer Shot)
+  "mc/bodysizing/bodysizing-04", // 8 · korpulentester, breit
 ];
 
 export function EcomGrid() {
