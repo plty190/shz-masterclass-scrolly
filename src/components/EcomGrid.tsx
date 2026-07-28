@@ -12,18 +12,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 // bodysizing — dasselbe blonde Model, gleiche blaue Boardshort,
 // Progression von schlank -> korpulent (nur Frontal-Views, ein Model, ein Look)
-// Lesefluss oben-links → unten-rechts, streng schlank → korpulent.
-// Nur Frontal-Full-Body (11 Rückansicht raus, 12 als leichter 3/4-Turn im Übergang).
-// 13 = neuer korpulenter Full-Body-Shot (voll frontal, Bauch klar sichtbar).
+// Eine Reihe, 6 Frontal-Full-Body-Shots, streng schlank → korpulent.
+// Alle im gleichen Framing (896×1200, Person klein im Frame).
 const variants = [
   "mc/bodysizing/bodysizing-07", // 1 · schlankster, definierter Sixpack
   "mc/bodysizing/bodysizing-09", // 2 · schlank, definiert
   "mc/bodysizing/bodysizing-01", // 3 · athletisch, leichter Rumpf
-  "mc/bodysizing/bodysizing-12", // 4 · leicht kräftig (Übergang)
-  "mc/bodysizing/bodysizing-03", // 5 · korpulent, weiche Silhouette
-  "mc/bodysizing/bodysizing-10", // 6 · korpulent, breitere Statur
-  "mc/bodysizing/bodysizing-13", // 7 · korpulent-massiv (neuer Shot)
-  "mc/bodysizing/bodysizing-04", // 8 · korpulentester, breit
+  "mc/bodysizing/bodysizing-06", // 4 · korpulent, weiche Silhouette (Full-Body)
+  "mc/bodysizing/bodysizing-04", // 5 · sehr korpulent, breit (Full-Body)
 ];
 
 export function EcomGrid() {
@@ -61,7 +57,7 @@ export function EcomGrid() {
 
   return (
     <section id="ecom" ref={rootRef} data-stop className="relative bg-paper px-6 py-28 md:px-16">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-7xl">
         <p className="eyebrow">
           E-Commerce-Produktion
         </p>
@@ -74,7 +70,7 @@ export function EcomGrid() {
           Bildsprache bleibt markenkonsistent. Keine Nachshootings, wenn die Range wächst.
         </p>
 
-        <div className="eg-grid mt-14 grid grid-cols-2 gap-3 md:grid-cols-4">
+        <div className="eg-grid mt-14 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5 md:gap-4">
           {variants.map((v, i) => (
             <div key={i} className="eg-tile fade-init overflow-hidden rounded-[10px] bg-light ring-1 ring-ink/[0.04]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -88,7 +84,7 @@ export function EcomGrid() {
           ))}
         </div>
         <p className="mt-4 text-[11px] text-faint">
-          Ein Produkt, acht Varianten — generiert aus demselben Ausgangsbild.
+          Ein Produkt, fünf Körperformen — generiert aus demselben Ausgangsbild.
         </p>
       </div>
     </section>
