@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 const stations = [
   {
     label: "Illustration",
-    text: "Am Anfang steht oft nicht mehr als eine grobe technische Zeichnung.",
+    text: "Am Anfang steht oft nicht mehr\nals eine grobe technische Zeichnung.",
   },
   {
     label: "Front & Back",
