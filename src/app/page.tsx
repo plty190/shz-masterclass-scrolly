@@ -81,22 +81,22 @@ export default function Home() {
           ]}
         />
 
-        {/* 3 · Live-Demo (direkt nach "Fünf Stile ... im Detail", Übergabe ins Tool) */}
+        {/* 3 · Der Prozess: Zeichnung → Produkt → E-Com */}
+        <ProcessJourney />
+
+        {/* 4 · Emotion */}
+        <Emotions />
+
+        {/* 5 · E-Commerce-Produktion + EN 13402 */}
+        <EcomGrid />
+
+        {/* 6 · Tool-Preview (Übergabe in die Plattform, direkt vor AI Act) */}
         <MarkerScreen
           id="demo"
           eyebrow="Jetzt live"
-          title="Live-Demo"
+          title="Tool-Preview"
           note="Ein echtes Produktbild, in Echtzeit: E-Commerce, Lookbook, Social. Wir wechseln in die Plattform."
         />
-
-        {/* 4 · Der Prozess: Zeichnung → Produkt → E-Com */}
-        <ProcessJourney />
-
-        {/* 5 · Emotion */}
-        <Emotions />
-
-        {/* 6 · E-Commerce-Produktion + EN 13402 */}
-        <EcomGrid />
 
         {/* 7 · EU AI Act, Grenzen & Möglichkeiten (Mirja, Part 5) */}
         <BeatSequence

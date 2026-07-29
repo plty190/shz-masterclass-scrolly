@@ -17,11 +17,11 @@ const stations = [
   },
   {
     label: "Front & Back",
-    text: "Daraus entstehen erste Produktansichten: Front und Back, in eurer Bildsprache.",
+    text: "Daraus entstehen erste Produktansichten:\nFront und Back, in eurer Bildsprache.",
   },
   {
     label: "Alle Bilder",
-    text: "Und daraus die komplette Bilderstrecke: Editorial, Kampagne, Detail. Ohne Shooting, ohne Prompting.",
+    text: "Und daraus die komplette Bilderstrecke:\nEditorial, Kampagne, Detail. Ohne Shooting, ohne Prompting.",
   },
 ];
 
@@ -138,7 +138,7 @@ export function ProcessJourney() {
           {stations.map((s, i) => (
             <p
               key={i}
-              className="prc-step fade-init display-body absolute inset-x-0 top-0 text-center font-medium text-[3.4vw] leading-[1.32] text-ink md:text-[22px]"
+              className="prc-step fade-init display-body absolute inset-x-0 top-0 whitespace-pre-line text-center font-medium text-[3.4vw] leading-[1.32] text-ink md:text-[22px]"
             >
               {s.text}
             </p>

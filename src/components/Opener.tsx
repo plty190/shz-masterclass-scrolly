@@ -127,7 +127,7 @@ export function Opener() {
             {[
               "Status Quo: what happens after the hype?",
               "AI Content Creation in der Praxis",
-              "Live-Demo: vom Produktbild zum fertigen Asset",
+              "Tool-Preview: vom Produktbild zum fertigen Asset",
               "EU AI Act: Grenzen & Möglichkeiten",
               "Euer nächster Schritt",
               "Q&A",

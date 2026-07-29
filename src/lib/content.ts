@@ -4,7 +4,7 @@ export const chapters = [
   { id: "hero", label: "Intro" },
   { id: "problem", label: "Das Strukturproblem" },
   { id: "ansatz", label: "Kein Prompting, kein Shooting" },
-  { id: "demo", label: "Live-Demo" },
+  { id: "demo", label: "Tool-Preview" },
   { id: "prozess", label: "Der Prozess" },
   { id: "emotionen", label: "Emotion" },
   { id: "ecom", label: "E-Commerce-Produktion" },
