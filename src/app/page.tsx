@@ -95,7 +95,7 @@ export default function Home() {
           id="demo"
           eyebrow="Jetzt live"
           title="Tool-Preview"
-          note="Ein echtes Produktbild, in Echtzeit: E-Commerce, Lookbook, Social. Wir wechseln in die Plattform."
+          note="Ein echtes Produktbild, in Echtzeit zum E-Commerce-Shot. Wir wechseln in die Plattform."
         />
 
         {/* 7 · EU AI Act, Grenzen & Möglichkeiten (Mirja, Part 5) */}
