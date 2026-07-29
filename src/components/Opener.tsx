@@ -114,7 +114,9 @@ export function Opener() {
             </div>
           </div>
           <p className="mt-14 max-w-md text-[14px] leading-[1.55] text-ink-soft">
-            SHOWZ.AI: AI Content Production für Fashion Brands. Dahinter: die Kreativagentur SHOWZ, Berlin.
+            SHOWZ.AI: AI Content Production für Fashion Brands.
+            <br />
+            Dahinter: die Kreativagentur SHOWZ, Berlin.
           </p>
         </div>
 
