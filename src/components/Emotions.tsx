@@ -11,10 +11,10 @@ gsap.registerPlugin(ScrollTrigger);
    dass AI-Produktion Stimmung kann, nicht nur Freisteller. */
 
 const beats = [
-  { img: "/images/mc/cool/cool-02.webp", text: "Content muss nicht nur schnell sein. Er muss etwas auslösen." },
-  { img: "/images/mc/cool/cool-14.webp", text: "Licht, Haltung, Atmosphäre. Markenbildsprache statt Stock-Optik." },
-  { img: "/images/mc/imaginary/imaginary-04.webp", text: "Und wenn ihr wollt, führt sie euch auch in Welten, die es so gar nicht gibt." },
-  { img: "/images/mc/cool/cool-20.webp", text: "Dieselbe Engine, die eure E-Commerce-Shots produziert, kann auch das." },
+  { img: "/images/mc/wide/wide-01.webp", text: "Content muss nicht nur schnell sein. Er muss etwas auslösen." },
+  { img: "/images/mc/wide/wide-08.webp", text: "Licht, Haltung, Atmosphäre. Markenbildsprache statt Stock-Optik." },
+  { img: "/images/mc/wide/wide-05.webp", text: "Und wenn ihr wollt, führt sie euch auch in Welten, die es so gar nicht gibt." },
+  { img: "/images/mc/wide/wide-11.webp", text: "Dieselbe Engine, die eure E-Commerce-Shots produziert, kann auch das." },
 ];
 
 export function Emotions() {

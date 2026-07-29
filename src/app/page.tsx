@@ -53,8 +53,12 @@ export default function Home() {
                 ))}
               </ol>
             </div>,
-            <TextScrub key="3" className="display-h2 text-[5.5vw] leading-[1.42] md:text-[44px]">
-              <>Starting point: <span className="marker">Automatisierung und Kreativität.</span></>
+            <TextScrub key="3" className="display-h2 text-[5.5vw] leading-[1.28] md:text-[44px]">
+              <>
+                <span className="whitespace-nowrap">Starting point:</span>
+                <br />
+                <span className="marker">Automatisierung und Kreativität.</span>
+              </>
             </TextScrub>,
           ]}
         />
