@@ -20,12 +20,12 @@ export function WelcomeVideo() {
         autoPlay
         className="absolute inset-0 h-full w-full object-cover"
       />
-      {/* Ecken-Vignette links-unten für Lesbarkeit des Text-Blocks */}
+      {/* Sanfte Vignette links-unten für Lesbarkeit — dezent damit helle Frames nicht dunkel wirken */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse 60% 55% at 15% 85%, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.35) 45%, rgba(0,0,0,0) 75%)",
+            "linear-gradient(to top right, rgba(0,0,0,0.42) 0%, rgba(0,0,0,0.18) 30%, rgba(0,0,0,0) 55%)",
         }}
         aria-hidden
       />
